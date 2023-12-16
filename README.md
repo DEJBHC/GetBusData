@@ -1,6 +1,8 @@
 1 代码功能
 =
-项目中包括 busLine.py 和 bus.py 两个程序。
+项目中包括 RoadClouded.py、BusinessLine.py、busLine.py 和 bus.py 四个程序。
+RoadClouded.py 实现从*高德地图*上获取道路拥挤情况，默认是北京。可通过修改城市名称获取其他城市情况。
+BusinessLine.py 实现从*高德地图*上获取商圈情况，默认是北京。可通过修改城市名称获取其他城市情况。
 busLine.py 实现从**8684**网站上获取北京公交线名。
 bus.py 根据 busLine.py获取的北京公交线名，从*高德地图*网站获取各公交线路运行轨迹经纬度及沿线站名。 
 
@@ -28,10 +30,3 @@ bus.py 根据 busLine.py获取的北京公交线名，从*高德地图*网站获
 =
 bus.py程序不可直接运行，须在高德api中获取key值，填入代码中对应地方才可运行，以获得各线路的途径站及经纬度坐标。
 busLine.py程序可以直接运行获得指定城市的公交线名。
-
-
-
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
